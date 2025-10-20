@@ -1,5 +1,31 @@
 /** CSS STYLE **/
 
+.header {
+  display: flex; 
+  position: fixed;
+  width: 1440px;
+  height: 210px;
+  opacity: 1;
+  gap: 10px;
+  top: 0;
+  left: 0;
+  padding: 50px 150px;
+  flex-direction: column;
+  background: #FE8A02;
+}
+
+.h1 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+
+.h1-open-sans {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
 .hello {
   display: block;
 

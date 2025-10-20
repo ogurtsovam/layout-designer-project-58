@@ -7,4 +7,4 @@ lint:
 	npx htmlhint ./src/*.html
 
 deploy:
-	npx surge ./src/
+	npx surge ./src/ layout-simple-page-project.surge.sh
