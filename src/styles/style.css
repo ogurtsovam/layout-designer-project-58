@@ -1,29 +1,41 @@
 /** CSS STYLE **/
 
-.header {
-  display: flex; 
-  position: fixed;
+.block {
   width: 1440px;
-  height: 210px;
-  opacity: 1;
-  gap: 10px;
-  top: 0;
-  left: 0;
-  padding: 50px 150px;
+  height: 914px;
+  display: flex;
   flex-direction: column;
-  background: #FE8A02;
 }
 
 .h1 {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 72px;
-  line-height: 160%;
+  line-height: 86.4px;
   letter-spacing: 0%;
 }
 
-.h1-open-sans {
-  font-family: 'Open Sans', sans-serif;
-  color: #fff;
+.h1-orange {
+  font-family: 'Neucha';
+  line-height: 86.4px;
+  letter-spacing: 0;
+  color: #FE8A02;
+}
+
+.h1-black {
+  font-family: 'Neucha', cursive;
+  letter-spacing: 0;
+  line-height: 100%;
+  margin-bottom: 8px;
+  color: #2A2626;
+}
+
+p {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25.6px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
 }
 
 .hello {
