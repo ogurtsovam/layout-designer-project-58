@@ -1,4 +1,6 @@
 /** CSS STYLE **/
+
+/** Foundation **/
 * {
   box-sizing: border-box;
 }
@@ -8,7 +10,10 @@ body {
   padding: 0;
 }
 
+/** Base **/
+
 .block {
+  position: relative;
   width: 100%;
   height: 914px;
   display: flex;
@@ -16,74 +21,7 @@ body {
   overflow: hidden;
 }
 
-header.block {
-  position: relative;
-  background-color: #F5F4F0;
-}
-
-.title {
-  width: 1138px;
-  height: 258px;
-  position: absolute;
-  top: 100px;
-  left: 165px;
-}
-
-.h1 {
-  font-family: "Neucha", sans-serif;
-  font-weight: 400;
-  font-size: 72px;
-  letter-spacing: 0;
-  margin: 0;
-}
-
-.h1-orange {
-  line-height: 86.4px;
-  color: #FE8A02;
-}
-
-.h1-black {
-  line-height: 100%;
-  margin-bottom: 8px;
-  color: #2A2626;
-}
-
-p {
-  width: 540px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 25.6px;
-  letter-spacing: 0%;
-  margin-bottom: 13px;
-}
-
-.p-1 {
-  position: absolute;
-  width: 540px;
-  top: 543px;
-  left: 165px;
-}
-
-.text-block {
-  position: absolute;
-  width: 540px;
-  top: 539px;
-  left: 735px;
-}
-
-button {
-  position: absolute;
-  width: 148px;
-  height: 49px;
-  top: 765px;
-  left: 735px;
-  background-color: #FE8A02;
-  border: none;
-  cursor: pointer;
-}
-
-.a {
+a {
   width: 101px;
   height: 26px;
   top: 11px;
@@ -94,7 +32,78 @@ button {
   line-height: 160%;
   letter-spacing: 0%;
   text-transform: uppercase;
-  color: #FFF;
+}
+
+/** Project **/
+
+.footer {
+  width: 1440px;
+  height: 581px;
+  top: 7215px;
+}
+
+.footer-card {
+  width: 1110px;
+  height: 190px;
+  top: 100px;
+  left: 165px;
+}
+
+.button-learnMore {
+  position: absolute;
+  width: 148px;
+  height: 49px;
+  top: 765px;
+  left: 735px;
+  background-color: #FE8A02;
+  border: none;
+  cursor: pointer;
+}
+
+header.block {
+  position: relative;
+  background-color: #F5F4F0;
+}
+
+.header-title {
+  width: 1138px;
+  height: 258px;
+  position: absolute;
+  top: 100px;
+  left: 165px;
+}
+
+.main-title {
+  position: absolute;
+  width: 1110px;
+  height: 146px;
+  top: 100px;
+  left: 165px;
+  margin-bottom: 30px;
+}
+
+.p-header {
+  position: absolute;
+  width: 540px;
+  top: 543px;
+  left: 165px;
+}
+
+.p-text-block-header {
+  position: absolute;
+  width: 540px;
+  top: 539px;
+  left: 735px;
+}
+
+.p-video {
+  position: absolute;
+  width: 1110px;
+  height: 26px;
+  top: 273px;
+  left: 165px;
+  margin: 10px;
+  line-height: 160%;
 }
 
 .main-picture {
@@ -125,3 +134,83 @@ button {
   z-index: -1;
 }
 
+.preview-image {
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  width: 919px;
+  height: 569px;
+}
+
+.preview-image {
+  width: 919px;
+  height: 517px;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.video {
+  position: absolute;
+  width: 919px;
+  height: 569px;
+  top: 329px;
+  left: 261px;
+}
+
+/** Cosmetic **/
+
+h1, h2, h3, h4, h5 {
+  font-family: Neucha, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+h1 {
+  font-size: 72px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 60px;
+  line-height: 72px;
+  text-align: center;
+  margin: 8px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25.6px;
+  letter-spacing: 0%;
+  margin-bottom: 13px;
+  color: #2A2626;
+}
+
+.h1-orange {
+  line-height: 86.4px;
+  color: #FE8A02;
+}
+
+.h1-black {
+  line-height: 100%;
+  margin-bottom: 8px;
+  color: #2A2626;
+}
+
+.orange {
+  color: #FE8A02;
+}
+
+.black {
+  color: #2A2626;
+}
+
+.black-light {
+  color: #212529;
+}
+
+.dark-grey {
+  color: #42413C;
+}
+
+.white {
+  color: #FFF;
+}
