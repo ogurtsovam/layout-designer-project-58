@@ -96,16 +96,6 @@ header.block {
   left: 735px;
 }
 
-.p-video {
-  position: absolute;
-  width: 1110px;
-  height: 26px;
-  top: 273px;
-  left: 165px;
-  margin: 10px;
-  line-height: 160%;
-}
-
 .main-picture {
   position: absolute;
   width: 1082.8125px;
@@ -134,15 +124,27 @@ header.block {
   z-index: -1;
 }
 
-.preview-image {
-  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
-  width: 919px;
-  height: 569px;
+.p-video {
+  position: absolute;
+  width: 1110px;
+  height: 26px;
+  top: 273px;
+  left: 165px;
+  margin: 10px;
+  margin-top: 30px;
+  line-height: 160%;
+  align-content: center;
+  justify-content: center;
 }
 
 .preview-image {
+  position: absolute;
   width: 919px;
   height: 517px;
+  top: 329px;
+  left: 261px;
+  margin-top: 30px;
+  margin-bottom: -100px;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
@@ -152,6 +154,31 @@ header.block {
   height: 569px;
   top: 329px;
   left: 261px;
+}
+
+.rectangle {
+  position: absolute;
+  width: 1440px;
+  height: 100px;
+  top: 814px;
+}
+
+.cards-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  width: fit-content;
+  margin: 100px auto;
+}
+
+.card {
+  width: 350px;
+  height: 323px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: flex-start;
 }
 
 /** Cosmetic **/
@@ -172,6 +199,20 @@ h2 {
   line-height: 72px;
   text-align: center;
   margin: 8px;
+}
+
+h3 {
+  font-size: 52px;
+  line-height: 120%;
+  margin: 8px;
+}
+
+h4 {
+  font-size: 34px;
+}
+
+h5 {
+  font-size: 24px;
 }
 
 p {
@@ -213,4 +254,16 @@ p {
 
 .white {
   color: #FFF;
+}
+
+.bg-dark {
+  background-color: #42413C;
+}
+
+.bg-white {
+  background-color: #F5F4F0;
+}
+
+.card-numbers {
+  font-size: 64px;
 }
